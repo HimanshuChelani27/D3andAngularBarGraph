@@ -1,0 +1,62 @@
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 12px;
+    box-shadow: 0 0 10px rgba(14, 4, 4, 0.2);
+  }
+ .width {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+ }
+ 
+ 
+ /* Filter button style */
+ .filter-button {
+  background-color: #007bff; /* blue */
+ }
+ 
+ 
+ .filter-button:hover {
+  background-color: #0056b3; /* darker blue on hover */
+ }
+ 
+ 
+ /* Reset button style */
+ .reset-button {
+  background-color: #dc3545; /* red */
+ }
+ 
+ 
+ .reset-button:hover {
+  background-color: #a52a37; /* darker red on hover */
+ }
+ .container {
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+ 
+ .title {
+  font-size: 24px; /* Adjust the size as needed */
+ }
+ 
+ 
+ .value {
+  display: inline;
+  margin-right: 5px; /* Adjust the spacing between the values */
+ }
+ 
+ 
+ .value::after {
+  content: ":";
+  margin-left: 5px; /* Adjust the spacing after the colon */
+ }
+ 

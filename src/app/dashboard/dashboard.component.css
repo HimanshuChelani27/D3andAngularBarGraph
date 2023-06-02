@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .hh1 {
+    text-align: center;
+    font-size: 48px;
+    color: #333;
+    background: linear-gradient(to right, #d60b0b, #c44569);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  h4:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s ease;
+  }
+  
+  h4:hover:before {
+    width: 100%;
+  }
+  
+  .chart {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .xyz {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .app-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar {
+    height: 20px;
+    margin-bottom: 5px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    margin-right: 10px;
+  }
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
